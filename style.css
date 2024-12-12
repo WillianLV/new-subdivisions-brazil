@@ -119,3 +119,43 @@ footer {
         flex-direction: column;
     }
 }
+
+@media (max-width: 720px) {
+    header {
+        padding: 1% 20% 0% 20%;
+    }
+
+    .menu__links {
+        font-size: 1rem;
+    }
+
+    .conteudo__principal__titulo {
+        font-size: 1.5rem;
+    }
+
+    .conteudo__principal__lide {
+        font-size: 0.75rem;
+    }
+
+    p {
+        font-size: 0.875rem;
+    }
+
+    .conteudo__botao__mapa {
+        max-width: 80%;
+    }
+
+    .conteudo__botao__descricao {
+        font-size: 0.875rem;
+    }
+
+    .conteudo__botao__link {
+        padding: 1%;
+        font-size: 1rem;
+        border: 3px solid var(--cor-primaria);
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
